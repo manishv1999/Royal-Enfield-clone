@@ -1,0 +1,83 @@
+#HeaderSection{
+    background-color: #0a0a0a;
+}
+#navbarSupportedContent ul li a{
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+#navbarSupportedContent ul li a:hover{
+    color:red;
+}
+#navbarSupportedContent ul{
+    margin-left: 180px;
+}
+.navbar-brand img{
+    margin: -9px;
+    width:224px;
+}
+
+#MultipleImg{
+    width:100%;
+
+}
+#MultipleImg div{
+    width:25%;
+    display: inline-block;
+    margin-left: -4px;
+}
+#MultipleImg div img{
+    width:101%;
+}
+#MultipleImg div img:hover{
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+}
+#MultipleImg div p{
+    font-size: 15px;
+    font-weight: 900;
+    color: white;
+    position: relative;
+    bottom:62px;
+    padding-left: 26px;
+}
+#ReTypes{
+    margin-top: -64px;
+    background-color:black;
+
+
+}
+#divTypes1{
+    background-color: black;
+}
+#divtypes1 h1{
+    color: white;
+    display: inline-block;
+    font-size: 21px;
+    margin-left: 32px;
+    margin-top: 10px;
+    font-weight: 900;
+
+}
+#divtypes1 ul{
+    
+    display: inline-block;
+
+}
+#divtypes1 ul li{
+    color: white;
+    display: inline-block;
+    padding: 0px 21px;
+    border-right: 3px solid white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+#divtypes1 ul li:hover{
+    color: red;
+}
+#divtypes2 img{
+    width: 100%;
+}

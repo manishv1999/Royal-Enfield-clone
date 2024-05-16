@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Royal Enfield</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./login.css">
+
+</head>
+<body>
+    <section id="HeaderSection">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./images/Screenshot 2023-02-17 152315.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://www.royalenfield.com/in/en/motorcycles/">Motorcycles</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://www.royalenfield.com/in/en/gma/">Shop The Looks</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://www.royalenfield.com/in/en/rentals/">Own A Royal Enfield</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://www.royalenfield.com/in/en/service">Service</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://www.royalenfield.com/in/en/rides/">Rides</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="https://www.royalenfield.com/in/en/support/">Reach Us</a>
+                  </li>
+                 
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <form action="./index.html" id="form" class="form-group col-md-4 offset-4 card" onsubmit="return fn()">
+        <div class="m-4" >
+                <label for="">Username</label>
+                <input type="text" class="form-control" id="uname" placeholder="Enter username">
+                <h6 id="unameh6"></h6>
+                <label for="">Password</label>
+                <input type="password" name="" class="form-control" id="pass" placeholder="Enter password">
+                <h6 id="passh6"></h6>
+                <button class="btn btn-success" id="btn" >Login</button>
+                <h6 id="btnh6"></h6>
+        </div>
+    </form>
+
+
+
+<script src="./login.js" ></script>
+</body>
+</html>

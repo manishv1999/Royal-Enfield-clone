@@ -1,0 +1,45 @@
+body{
+background-image: url(./images/f6d9d35d-1f31-4f6a-8cb3-66866fdcb977.jpg);
+background-repeat: no-repeat;
+background-size: 100% 750px;
+}
+
+#form{
+
+    background: transparent;
+    border: 1px solid white;
+
+}
+#form div input{
+    background: transparent;
+
+}
+#form div label{
+    color: white;
+}
+#form div input::placeholder{
+    color: white;
+}
+#HeaderSection{
+    background-color: #0a0a0a;
+}
+#navbarSupportedContent ul li a{
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+#navbarSupportedContent ul li a:hover{
+    color:red;
+}
+#navbarSupportedContent ul{
+    margin-left: 180px;
+}
+.navbar-brand img{
+    margin: -9px;
+    width:224px;
+}
+h6{
+    color: red;
+}
